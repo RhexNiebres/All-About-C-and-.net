@@ -4,3 +4,22 @@ int number = 1;
 var name = "rhex";
 // multiple
 int m1, m2, m3;
+
+// declaration variable 
+
+short shortA = 1;
+int intA = 1;
+long longA = 1;
+
+intA = shortA;// stores shortA to intA to expand capacity and range
+longA = intA; // stores intA to longA to expand capacity and range
+
+bool trueVal = true;
+bool falseVal = false;
+
+char charA = "A";
+string nullString;
+string stringWithValue = "Hello world";
+
+float floatA = 1.2F;// handles numeric value with decimal places
+double doubleA = 1.2D;
