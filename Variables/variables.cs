@@ -1,4 +1,5 @@
-// <data type> <name of variable>
+#region VariableDeclaration
+    // <data type> <name of variable>
 //single per line
 int number = 1;
 var name = "rhex";
@@ -25,6 +26,8 @@ float floatA = 1.2F;// handles numeric value with decimal places
 double doubleA = 1.2D;// used for measurement and weight and number with decimal places except for money
 
 decimal decimalA = 1.2M; // used for when data is money or currency 
+#endregion
+
 
 //----------------------
 
@@ -33,3 +36,10 @@ decimal decimalA = 1.2M; // used for when data is money or currency
 int numberA = 1;
 //implicit - C# guesses (but still type-safe). It only knows the data type when you put the value
 var numberB = 1;
+
+//----------------------
+// variable scope
+
+//class variable 
+// instance variable
+
